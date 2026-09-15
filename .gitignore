@@ -1,0 +1,5 @@
+/invoice-line-parser
+*.exe
+*.test
+*.out
+.DS_Store
