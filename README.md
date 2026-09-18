@@ -74,9 +74,10 @@ go run . --lenient sloppy_export.txt
 
 ## Status
 
-Early. The parser, decimal handling, and table renderer work end to end,
-but there's no test suite yet and the column widths in the pretty printer
-are fixed rather than content-aware.
+Early. The parser, decimal handling, and table renderer work end to end.
+The parser's strict and lenient paths have table-driven tests; the table
+renderer doesn't have tests yet, and its column widths are fixed rather
+than content-aware.
 
 ## License
 
